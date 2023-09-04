@@ -1,0 +1,336 @@
+<div class="bodyLogin">
+    <header class="site-header">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-8 col-12 d-flex flex-wrap">
+                    <p class="d-flex me-4 mb-0">
+                        <i class="bi-geo-alt me-2"></i>
+                        San Luis Rio Colorado, Sonora. 16 de septiembre calle 2 y 3
+                    </p>
+
+                    <p class="d-flex mb-0">
+                        <i class="bi-envelope me-2"></i>
+
+                        <a href="mailto:adara@gmail.com">
+                            adara@gmail.com
+                        </a>
+                    </p>
+                </div>
+
+                <div class="col-lg-3 col-12 ms-auto d-lg-block d-none">
+                    <ul class="social-icon">
+
+                        <li class="social-icon-item">
+                            <a href="" class="social-icon-link bi-facebook"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="" class="social-icon-link bi-whatsapp"></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg bg-light shadow-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="../../../assets/images/logo.png" class="logo img-fluid" alt="Kind Heart Charity">
+                <span style="font-size: large;">
+                    Consultorio Dental Adara
+                </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <!-- <a class="nav-link click-scroll" href="home#top">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="home#servicios">Servicios</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="home#nosotros">Sobre nosotros</a>
+                    </li> -->
+
+                    <li class="nav-item">
+                        <a class=" click-scroll" href="home">Cerrar sesión</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="donate-section">
+            <div class="section-overlay"></div>
+            <div class="container" style="margin-top: -50px;">
+                <div class="row">
+
+                    <div class="col-lg-10 col-12 mx-auto">
+                        <form class="custom-form donate-form" action="#" method="get" role="form">
+                            <h3 class="mb-4">Formulario de alta</h3>
+
+                            <div class="row">
+
+                                <div class="col-lg-6 col-12 mt-2">
+                                    <input type="text" name="donation-name" id="donation-name" class="form-control"
+                                        placeholder="Nombre" required>
+                                </div>
+
+                                <div class="col-lg-6 col-12 mt-2">
+                                    <input type="number" name="donation-email" id="donation-email" class="form-control"
+                                        placeholder="Edad" required>
+                                </div>
+
+                                <div class="col-lg-6 col-12 mt-2">
+                                    <input class="input100 form-control" type="text" name="nacimientotitular"
+                                        placeholder="Fecha" onclick="ocultarError();" onfocus="(this.type='date')"
+                                        onblur="(this.type='text')">
+                                </div>
+
+                                <div class="col-lg-6 col-12 mt-2">
+                                    <input type="hour" name="donation-email" id="donation-email" class="form-control"
+                                        placeholder="Hora" required>
+                                </div>
+
+                                <div class="col-lg-6 col-12 mt-2">
+                                    <input type="hour" name="donation-email" id="donation-email" class="form-control"
+                                        placeholder="Teléfono" required>
+                                </div>
+
+                                <textarea name="message" rows="5" class="col-5 form-control mt-4" id="message"
+                                    placeholder="Motivo"></textarea>
+
+                                <div class="col-lg-5 col-5 mx-auto">
+
+                                    <button type="submit" class="form-control mt-4">Añadir</button>
+                                </div>
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                    <div class="col-lg-10 col-12 mx-auto mt-5">
+                        <form class="custom-form donate-form" action="#" method="get" role="form">
+                            <h3 class="mb-4">Citas</h3>
+
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Nombre</th>
+                                            <th scope="col">Teléfono</th>
+                                            <th scope="col">Fecha</th>
+                                            <th scope="col">Hora</th>
+                                            <th scope="col">Motivo</th>
+                                            <th scope="col">Operaciones</th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td scope="row">Maria Heras</td>
+                                            <td>6531232456</td>
+                                            <td>22/08/2023</td>
+                                            <td>14:30</td>
+                                            <td>Limpieza dental</td>
+                                            <td>
+                                                <a style="margin-right: 20px;" class="bi bi-pencil-square"></a>
+                                                <a style="margin-right: 20px;" class="bi bi-x-circle"></a>
+                                                <a class="bi bi-check-lg"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">Jose Gutierrez</td>
+                                            <td>6534560081</td>
+                                            <td>22/08/2023</td>
+                                            <td>15:00</td>
+                                            <td>Implantes dentales</td>
+                                            <td>
+                                                <a style="margin-right: 20px;" class="bi bi-pencil-square"></a>
+                                                <a style="margin-right: 20px;" class="bi bi-x-circle"></a>
+                                                <a class="bi bi-check-lg"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">Carlos Chavez</td>
+                                            <td>6531008456</td>
+                                            <td>22/08/2023</td>
+                                            <td>15:30</td>
+                                            <td>Empaste dental</td>
+                                            <td>
+                                                <a style="margin-right: 20px;" class="bi bi-pencil-square"></a>
+                                                <a style="margin-right: 20px;" class="bi bi-x-circle"></a>
+                                                <a class="bi bi-check-lg"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">Saul Tellez</td>
+                                            <td>6534567009</td>
+                                            <td>22/08/2023</td>
+                                            <td>16:00</td>
+                                            <td>Coronas dentales</td>
+                                            <td>
+                                                <a style="margin-right: 20px;" class="bi bi-pencil-square"></a>
+                                                <a style="margin-right: 20px;" class="bi bi-x-circle"></a>
+                                                <a class="bi bi-check-lg"></a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="col-lg-10 col-12 mx-auto mt-5">
+                        <div class="col-lg-5 col-5 mx-auto customInput2">
+
+                            <input class="form-control mt-4" placeholder="Buscar pacientes">
+                        </div>
+
+                        <form class="custom-form donate-form" action="#" method="get" role="form">
+                            <h3 class="mb-4">Citas realizadas</h3>
+
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Nombre</th>
+                                            <th scope="col">Teléfono</th>
+                                            <th scope="col">Fecha</th>
+                                            <th scope="col">Hora</th>
+                                            <th scope="col">Motivo</th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td scope="row">Maria Heras</td>
+                                            <td>6531232456</td>
+                                            <td>22/08/2023</td>
+                                            <td>14:30</td>
+                                            <td>Limpieza dental</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">Jose Gutierrez</td>
+                                            <td>6534560081</td>
+                                            <td>22/08/2023</td>
+                                            <td>15:00</td>
+                                            <td>Implantes dentales</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">Carlos Chavez</td>
+                                            <td>6531008456</td>
+                                            <td>22/08/2023</td>
+                                            <td>15:30</td>
+                                            <td>Empaste dental</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">Saul Tellez</td>
+                                            <td>6534567009</td>
+                                            <td>22/08/2023</td>
+                                            <td>16:00</td>
+                                            <td>Coronas dentales</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                    <div class="col-lg-10 col-12 mx-auto mt-5">
+                        <form class="custom-form donate-form" action="#" method="get" role="form">
+                            <h3 class="mb-4">Comentarios</h3>
+
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Nombre</th>
+                                            <th scope="col">Apellido</th>
+                                            <th scope="col">Correo</th>
+                                            <th scope="col">Comentario</th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td scope="row">Maria</td>
+                                            <td>Heras</td>
+                                            <td>mariaheras@gmail.com</td>
+                                            <td>Limpieza denta</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">Jose</td>
+                                            <td>Gutierrez</td>
+                                            <td>josegutierrez@gmail.com</td>
+                                            <td>Empaste dental</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-12 mb-4 navbar-brand">
+                    <img src="../../../assets/images/logo.png" class="logo img-fluid" alt="">
+                    <span>
+                        Consultorio Dental Adara
+                    </span>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 mx-auto">
+
+                    <h5 class="site-footer-title mb-3">Información de contacto</h5>
+
+                    <p class="d-flex mb-2 text-white">
+                        <i class="bi-geo-alt me-2"></i>
+                        San Luis Rio Colorado, Sonora. 16 de septiembre calle 2 y 3
+                    </p>
+
+                    <p class="text-white d-flex mb-2">
+                        <i class="bi-telephone me-2"></i>
+
+                        <a href="tel:653-518-3854" class="site-footer-link">
+                            653-518-3854
+                        </a>
+                    </p>
+
+                    <p class="text-white d-flex">
+                        <i class="bi-envelope me-2"></i>
+
+                        <a href="mailto:adara@gmail.com" class="site-footer-link">
+                            adara@gmail.com
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
