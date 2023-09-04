@@ -1,0 +1,20 @@
+https://us04web.zoom.us/j/9448905352?pwd=dEtZZGZlaXRQQXFVVXpDUFJTU3ROUT09
+
+npm install -g @angular/cli
+ng new angular
+ng g c components/users
+ng g class models/users
+ng g s services/users
+
+ng generate module app-routing --flat --module=app
+
+ng g s services/auth
+ng g g auth
+
+
+npm install jsonwebtoken
+
+
+git clone
+npm install
+npm start
